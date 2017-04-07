@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:fontFamily="sans-serif"
+        android:text="Bâtiment "
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:fontFamily="sans-serif"
+        android:text="Salle :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="203dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif"
+        android:text="Incendie :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="203dp"
+        android:layout_height="46dp"
+        android:fontFamily="sans-serif"
+        android:text="Fenêtre Ouverte :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="204dp"
+        android:layout_height="57dp"
+        android:fontFamily="sans-serif"
+        android:text="Présence :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/Favoris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:text="Mettre en Favoris"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
